@@ -1,0 +1,161 @@
+:root {
+    --bs-primary: #933C24;
+    --bs-primary-hover: rgb(167, 88, 66);
+    --bs-secondary: #E9BD8C;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: "Inter";
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover) !important;
+}
+
+.link1 {
+    color: var(--bs-secondary);
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Inter';
+}
+
+.div1 {
+    padding-top: 3rem;
+    margin-left: 3rem;
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url("../fonts/SansitaSwashed-Regular.ttf");
+}
+
+.bg-image {
+    background-image: url("../images/bakery_background.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.logo {
+    padding-left: 2rem;
+    padding-top: 10px;
+}
+
+.text {
+    font-family: 'sansita';
+    font-size: 3rem;
+    color: #F5F5F5;
+    line-height: 1.2;
+    padding-left: 2rem;
+}
+
+.text1 {
+    font-family: 'Inter';
+    color: var(--bs-secondary);
+    font-weight: 600;
+    line-height: 1;
+    padding-left: 2rem;
+}
+
+.top-product {
+    font-family: 'sansita';
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.subimg1 {
+    background-image: url("../images/rect-bg.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.img{
+    height: 200px;
+}
+
+.img1-text1 {
+    font-family: 'Inter';
+    color: white;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.img1-text2 {
+    font-family: 'Inter';
+    color: white;
+    font-size: 1rem;
+}
+
+.img-div {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bg-img2 {
+    background-image: url('../images/product/bg-img2.png');
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 2rem;
+}
+
+.bg2-text2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Inter';
+
+}
+
+.bg2-text1 {
+    font-family: 'sansita';
+    color: var(--bs-primary);
+    font-size: 2rem;
+}
+
+.Category {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #5D5D5D;
+}
+
+.bg-img3 {
+    background-image: url('../images/product/bg-img3.png');
+    background-size: cover;
+    height: 60vh;
+    margin-top: 3rem;
+    background-position: center;
+    width: 100%;
+}
+
+.bg3-text1 {
+    font-family: 'sansita';
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.bg3-text2 {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Inter';
+    color: white;
+}
+
+.ft-img-text {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-family: 'Inter';
+    font-weight: 600;
+}
